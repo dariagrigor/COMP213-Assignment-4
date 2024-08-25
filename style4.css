@@ -1,0 +1,47 @@
+body {
+	background-image: url(background4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: arial;
+	margin: 0;}
+
+.FormContainer{
+	margin: 0 auto;
+	padding-left: 75px;
+    padding-right: 75px;
+	border: 2px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 980px;
+    background-color: #D4E860;
+	}
+  
+h2{
+	text-align: center;
+}
+
+h4{
+	border: auto;
+	background-color: #B7B9AA;
+}
+
+textarea{
+	width: 100%;
+    box-sizing: border-box;
+}
+
+footer{
+	text-align: center;	
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #B7B9AA;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
